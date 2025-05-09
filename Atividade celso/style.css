@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*
+{margin: 0px;}
+body{
+    font-family: "Poppins";
+}
+    
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: black;
+}
+
+.logotipo {
+    color: rgb(250, 250, 250);
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+#vermelho{
+    display: flex;
+    flex-flow: row;
+}#vermelho2{
+    color: red;
+}
+#dev{
+    margin-bottom: 40px;
+}
+h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#servicos {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+.servico {
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: #e3e3e3;
+}
+.servico h3 {
+    color: #0073e6;
+}
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a:hover {
+    color: rgb(253, 7, 7);
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo dos labels */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo dos inputs e textarea */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Foco nos campos */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: blueviolet;
+    outline: none;
+    box-shadow: 0 0 5px blueviolet;
+}
+
+/* Estilo do botão */
+form button {/* Estilo do botão */
+form button {
+    background-color: white;
+    color: black;
+    padding: 12px 25px;
+    border: 2px solid blueviolet;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover no botão */
+form button:hover {
+    background-color: blueviolet;
+    color: white;
+    border-color: blueviolet;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+    background-color: black;
+
+
+
+
+    font-size: 16px;    border-radius: 4px;    border: none;    padding: 10px 20px;    color: white;
+}
+
+/* Mensagem de erro oculta */
+.hidden {
+    display: none;
+}
+
+/* Mensagem de erro visível */
+#error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Mensagem de brincadeira oculta */
+.hidden {
+    display: none;
+}
+
+/* Mensagem de brincadeira visível */
+#prank-message {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}

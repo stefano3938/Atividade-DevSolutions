@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - DevSolutions</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header style="margin-bottom: 80px;">
+        <style>
+   
+            header a {
+              text-decoration: none;
+              color: rgb(250, 250, 250);
+        
+            }
+        </style>
+        
+        <span class="logotipo"><div id="vermelho">Dev<div id="vermelho2">Solutions</div></div></span>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="index.html">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+              </ul>
+          </nav>
+    </header>
+    <h1>Preencha o formulário para entrarmos em contato com você!</h1>
+    <section>
+        <form method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" >
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" >
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" ></textarea>
+            
+            <button type="submit">Enviar</button>
+            <p id="error-message" class="hidden">Por favor, preencha todos os campos antes de enviar.</p>
+        </form>
+  
+        
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
